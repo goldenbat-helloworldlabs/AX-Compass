@@ -109,7 +109,7 @@ export default function AssessmentPage() {
                 </div>
                 <div className="flex items-center gap-2 rounded-full bg-white p-2 shadow lg:px-3">
                   <Clock className="size-4 text-purple-700 lg:size-4" strokeWidth={3} />
-                  <span className="txt-c1-regular text-black">약 15분</span>
+                  <span className="txt-c1-regular text-black">약 10분</span>
                 </div>
               </div>
 
@@ -197,7 +197,7 @@ export default function AssessmentPage() {
                 </div>
                 <div className="flex items-center gap-2 rounded-[12px] bg-white p-2 shadow lg:px-3">
                   <Clock className="size-4 text-purple-700 lg:size-4" strokeWidth={3} />
-                  <span className="txt-c1-regular text-black">약 30분 (임원진 5분)</span>
+                  <span className="txt-c1-regular text-black">약 20분 (임원진 5분)</span>
                 </div>
               </div>
 
