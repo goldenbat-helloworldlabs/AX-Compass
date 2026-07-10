@@ -75,7 +75,12 @@ export function AssessmentTypeSection() {
                     </ul>
                   </div>
                 </div>
-                <Button render={<Link href={item.href} />} variant={item.variant} className="w-fit">
+                <Button
+                  id={item.id}
+                  render={<Link href={item.href} />}
+                  variant={item.variant}
+                  className="w-fit"
+                >
                   {item.ctaLabel}
                 </Button>
               </div>
